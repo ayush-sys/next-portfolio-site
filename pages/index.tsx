@@ -1,16 +1,21 @@
 import Head from 'next/head';
-import { FiTerminal } from 'react-icons/fi';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div>
       <Head>
         <title>Portfolio</title>
         <link rel="icon" href="/terminal-solid.svg" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center space-y-4">
+    {/* Header Section */}
+    <Header/>
+
+    {/* Main Section */}
+      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center space-y-4 my-8 py-8">
         <h1 className="text-6xl font-bold">
           Welcome to my {' '}
           <a className="text-blue-600" href="">
@@ -23,15 +28,8 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <p className="flex items-center justify-center font-semibold text-gray-500 hover:text-gray-700 space-x-2">
-          Developed by {'  '}
-          <FiTerminal />
-          <a className="">
-            Ayush Pattanyak.
-          </a>
-        </p>
-      </footer>
+    {/* Footer Section */}
+    <Footer />
     </div>
   )
 }
