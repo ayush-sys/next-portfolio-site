@@ -1,11 +1,14 @@
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import About from '../components/About';
+import Education from '../components/Education';
+import Skills from '../components/Skills';
 
 
 export default function Home() {
   return (
-    <div>
+    <div className='max-w-7xl mx-auto px-4 sm:px-6'>
       <Head>
         <title>Portfolio</title>
         <link rel="icon" href="/terminal-solid.svg" />
@@ -15,17 +18,10 @@ export default function Home() {
     <Header/>
 
     {/* Main Section */}
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center space-y-4 my-8 py-8">
-        <h1 className="text-6xl font-bold">
-          Welcome to my {' '}
-          <a className="text-blue-600" href="">
-            Portfolio
-          </a>
-        </h1>
-        <div>
-          <h1 className="text-4xl">Developed using{' '}<a className="text-blue-500 hover:text-blue-600" href="http://nextjs.org/">Next JS</a></h1>
-          <h2 className="text-2xl">Styled by{' '}<a className="text-blue-500 hover:text-blue-600" href="https://tailwindcss.com/">Tailwind CSS</a></h2>
-        </div>
+      <main >
+        <About/>
+        <Education/>
+        <Skills/>
       </main>
 
     {/* Footer Section */}
