@@ -92,14 +92,14 @@ const callouts = [
                         <div className="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1">
                             <a href={callout.href} class="w-full block h-full">
                                 <img alt={callout.imageAlt} src={callout.imageSrc} className="max-h-40 w-full object-cover"/>
-                                <div class="bg-white dark:bg-gray-800 w-full p-4">
-                                    <p class="text-xl font-medium mb-2 text-blue-700">
+                                <div className="bg-white dark:bg-gray-800 w-full p-4">
+                                    <p className="text-xl font-medium mb-2 text-blue-700">
                                         {callout.name}
                                     </p>
-                                    <p class="text-gray-600 font-medium text-md mb-2">
+                                    <p className="text-gray-600 font-medium text-md mb-2">
                                         {callout.description}
                                     </p>
-                                    <div class="flex flex-wrap justify-starts items-center mt-4">
+                                    <div className="flex flex-wrap justify-starts items-center mt-4">
                                         {callout.tags.map(tag => (
                                             <a className="px-4 py-2 flex items-center text-xs font-semibold rounded-full text-blue-500 border border-blue-600 mr-2">
                                             {tag}

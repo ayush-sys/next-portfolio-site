@@ -1,5 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { FaNodeJs, FaTools, FaBrain, FaCloud} from "react-icons/fa"
+import { FaNodeJs, FaTools, FaBrain, FaCloud} from "react-icons/fa";
 
 const features = [
   {
