@@ -3,8 +3,11 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import About from '../components/About';
 import Education from '../components/Education';
+import Expereince from '../components/Expereince';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
+
+
 
 export default function Home() {
   return (
@@ -23,6 +26,7 @@ export default function Home() {
         <Education/>
         <Skills/>
         <Projects/>
+        <Expereince/>
       </main>
 
     {/* Footer Section */}
