@@ -29,7 +29,7 @@ const info = [
 
 export default function Expereince() {
     return(
-        <div className="py-12 bg-white">
+        <div className="py-12 bg-white" id="expereince">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="md:text-center">
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -42,7 +42,7 @@ export default function Expereince() {
                         {info.map(expereinceInfo => (
                             <div key={expereinceInfo.key} className="group relative shadow-md">
                                 <div className="relative w-full h-auto bg-white rounded-lg overflow-hidden sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1">
-                                    <a class="w-full block h-full tracking-wide">
+                                    <a className="w-full block h-full tracking-wide">
                                         <img alt='alt'  src={expereinceInfo.image} className="max-h-40 w-full object-cover"/>
                                         <div className="bg-white dark:bg-gray-800 w-full p-4">
                                             <p className="text-xl font-semibold mb-3 text-blue-600 flex flex-row justify-between">
@@ -56,10 +56,10 @@ export default function Expereince() {
                                             <p className="text-gray-700 font-medium text-md mb-2">
                                                 {expereinceInfo.desc}
                                                 <ul className="text-gray-600 font-regular text-md mt-2 list-disc list-inside">
-                                                {expereinceInfo.points.map(point => (
-                                                    <li>{point}</li>
-                                                ))}
-                                            </ul>
+                                                    {expereinceInfo.points.map(point => (
+                                                        <li>{point}</li>
+                                                    ))}
+                                                </ul>
                                             </p>
                                         </div>
                                     </a>

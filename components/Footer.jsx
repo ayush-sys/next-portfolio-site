@@ -12,16 +12,16 @@ export default function Footer() {
             <a href="#" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
               <FaInstagram className='text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200'/>
             </a>
-            <a href="#" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
+            <a href="https://www.linkedin.com/in/ayush-pattanayak-32225b202/" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
               <FaLinkedinIn className='text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200'/>
             </a>
-            <a href="#" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
+            <a href="https://github.com/ayush-sys" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
               <FaGithub className='text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200'/>
             </a>
-            <a href="#" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
+            <a href="https://twitter.com/ayushmp7" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
               <FaTwitter className='text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200'/>
             </a>
-            <a href="#" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
+            <a href="mailto:ayushmp7@gmail.com" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
               <HiMail className='text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200'/>
             </a>
         </div>

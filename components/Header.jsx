@@ -1,30 +1,36 @@
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon } from '@heroicons/react/outline';
-import { HiOutlineAcademicCap } from "react-icons/hi";
+import { HiAcademicCap } from "react-icons/hi";
+import { MdBookmarkAdded } from "react-icons/md";
 import {FaTerminal, FaGithub, FaTwitter, FaLinkedin, FaTools, FaHtml5, FaListUl} from 'react-icons/fa';
 
 
 const navItems = [
   {
     name: 'Education',
-    href: '#Education',
-    icon: HiOutlineAcademicCap
+    href: '#education',
+    icon: HiAcademicCap
   },
   {
     name: 'Skills',
-    href: '#Skills',
+    href: '#skills',
     icon: FaTools
   },
   {
     name: 'Projects',
-    href: '#Projects',
+    href: '#projects',
     icon: FaHtml5
   },
   {
     name: 'Expereince',
-    href: '#Expereince',
+    href: '#expereince',
     icon: FaListUl
+  },
+  {
+    name: 'Certifications',
+    href: '#certifications',
+    icon: MdBookmarkAdded
   },
 ]
 
@@ -70,17 +76,20 @@ export default function Header() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="#education" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Education
             </a>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="#skills" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Skills
             </a>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="#projects" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Projects
             </a>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-            Expereince
+            <a href="#expereince" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              Expereince
+            </a>
+            <a href="#certifications" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              Certifications
             </a>
           </Popover.Group>
 
