@@ -1,12 +1,5 @@
 import Head from 'next/head';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import About from '../components/About';
-import Education from '../components/Education';
-import Expereince from '../components/Expereince';
-import Skills from '../components/Skills';
-import Projects from '../components/Projects';
-
+import {About, Header, Footer, Education, Expereince, Skills, Projects, Certifications} from "../components";
 
 
 export default function Home() {
@@ -27,6 +20,7 @@ export default function Home() {
         <Skills/>
         <Projects/>
         <Expereince/>
+        <Certifications/>
       </main>
 
     {/* Footer Section */}
