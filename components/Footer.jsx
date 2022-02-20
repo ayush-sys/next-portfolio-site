@@ -1,7 +1,6 @@
 import React from 'react';
-import { FaInstagram, FaTwitter, FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaTwitter, FaGithub, FaLinkedinIn, FaMedium } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
-
 
 export default function Footer() {
   return (
@@ -9,8 +8,8 @@ export default function Footer() {
 <footer className="bg-white w-full py-4">
     <div className="max-w-screen-xl mx-auto px-4">
         <div className="pt-4 flex max-w-xs mx-auto items-center justify-between">
-            <a href="#" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-              <FaInstagram className='text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200'/>
+            <a href="https://medium.com/@ayushmp7" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
+              <FaMedium className='text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200'/>
             </a>
             <a href="https://www.linkedin.com/in/ayush-pattanayak-32225b202/" className="text-gray-500 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
               <FaLinkedinIn className='text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200'/>

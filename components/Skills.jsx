@@ -4,25 +4,25 @@ const features = [
   {
     name: 'MERN Application Developer',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'I have learnt & develop many applications on MERN with great UI design. Apart from good design, I also code it efficiently.',
     icon: FaNodeJs,
   },
   {
     name: 'Machine Learning',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'I also have a deep understanding of ML & want to develop more applications using it, so that I can solve real world problems.',
     icon: FaBrain,
   },
   {
     name: 'Cloud Hosting',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Apart from developing MERN & ML applications, I also deployed it on platforms like Heroku & Netlify.',
     icon: FaCloud,
   },
   {
     name: 'Tools',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'I have also gain expereince in using tools like Git & Github, VS Code, linux terminal so that I can write & maintain code efficiently.',
     icon: FaTools,
   },
 ]
@@ -45,9 +45,9 @@ export default function Skills() {
                   <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
                     <feature.icon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-gray-600 hover:text-blue-500">{feature.name}</p>
+                  <p className="ml-16 text-lg leading-6 font-medium text-gray-700 hover:text-blue-500">{feature.name}</p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-600">{feature.description}</dd>
               </div>
             ))}
           </dl>
