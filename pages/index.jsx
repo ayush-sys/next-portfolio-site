@@ -7,7 +7,7 @@ export default function Home() {
     <div className='max-w-7xl mx-auto px-4 sm:px-6'>
       <Head>
         <title>Portfolio</title>
-        <link rel="icon" href="/terminal-solid.svg" />
+        <link rel="icon" href="/developer.png" />
       </Head>
 
     {/* Header Section */}

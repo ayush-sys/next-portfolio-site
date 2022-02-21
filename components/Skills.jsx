@@ -31,13 +31,13 @@ export default function Skills() {
   return (
     <div className="py-12 bg-white" id="skills">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="md:text-center">
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <div className="md:text-center font-head">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-wide text-gray-900 sm:text-4xl">
             Skills
           </p>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-10 font-body">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {features.map((feature) => (
               <div key={feature.name} className="relative">

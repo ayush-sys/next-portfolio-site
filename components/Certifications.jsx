@@ -27,14 +27,14 @@ export default function Certifications() {
   return (
   <div className="py-12 bg-white" id="certifications">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="md:text-center">
-        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+      <div className="md:text-center font-head">
+        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-wide text-gray-900 sm:text-4xl">
           Certifications
         </p>
       </div>
 
         {/* grid */}
-        <div className="grid grid-cols-2 gap-4 my-4 py-4 text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-4 py-4 text-center font-body">
 
           {certificationsInfo.map((certification) => (
             <>

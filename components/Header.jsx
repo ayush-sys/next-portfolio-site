@@ -61,12 +61,12 @@ function classNames(...classes) {
 export default function Header() {
   return (
     <Popover className="relative bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 font-head">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
               <span className="sr-only">Workflow</span>
-              <FaTerminal className="h-8 w-auto sm:h-10"/>
+              <FaTerminal className='h-8 sm:h-10 w-auto'/>
             </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
@@ -125,7 +125,7 @@ export default function Header() {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        <Popover.Panel focus className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+        <Popover.Panel focus className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden font-head">
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
               {navItems.map((item) => (

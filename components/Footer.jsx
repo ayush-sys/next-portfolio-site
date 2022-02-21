@@ -24,7 +24,7 @@ export default function Footer() {
               <HiMail className='text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200'/>
             </a>
         </div>
-        <a className="text-center text-gray-400 hover:text-gray-600 pt-8 sm:pt-10 flex items-center justify-center font-semibold transition-colors duration-200">
+        <a className="text-center text-gray-400 hover:text-gray-600 pt-8 sm:pt-10 flex items-center justify-center font-semibold transition-colors duration-200 font-head tracking-wide">
           Developed by Ayush Pattanayak
         </a>
     </div>
