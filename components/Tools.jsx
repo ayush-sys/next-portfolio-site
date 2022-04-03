@@ -1,5 +1,4 @@
 import ToolImage from "./ToolImage";
-import aws from "../public/images/logos/aws.svg";
 import bootstrap from "../public/images/logos/bootstrap.svg";
 import css3 from "../public/images/logos/css3.svg";
 import firebase from "../public/images/logos/firebase.svg";
@@ -10,8 +9,8 @@ import html from "../public/images/logos/html5.svg";
 import java from "../public/images/logos/java.svg"
 import js from "../public/images/logos/JS.svg";
 import matplotlib from "../public/images/logos/matplotlib.svg";
+import mysql from "../public/images/logos/mysql.svg";
 import mongodb from "../public/images/logos/mongodb.svg";
-import netlify from "../public/images/logos/Netlify.svg";
 import nextjs from "../public/images/logos/next-js.svg";
 import nodejs from "../public/images/logos/nodejs.svg";
 import numpy from "../public/images/logos/numpy.svg";
@@ -22,12 +21,13 @@ import seaborn from "../public/images/logos/seaborn.svg";
 import sklearn from "../public/images/logos/sklearn.svg";
 import tailwindcss from "../public/images/logos/tailwindcss.svg";
 import tensorflow from "../public/images/logos/tensorflow.svg";
+import vercel from "../public/images/logos/vercel.svg";
 
 
 const toolImages =[
-    html, css3, js, java, nodejs, react, nextjs, bootstrap, tailwindcss, mongodb,
-     python, numpy, pandas, matplotlib, seaborn, sklearn, tensorflow,
-      git, github, firebase, heroku, netlify
+  html, css3, js, java, nodejs, react, nextjs, bootstrap, tailwindcss, mongodb, mysql,
+  python, numpy, pandas, matplotlib, sklearn, seaborn, tensorflow,
+      git, github, firebase, heroku, vercel
 ]
 
 

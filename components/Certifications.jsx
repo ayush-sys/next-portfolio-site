@@ -1,5 +1,15 @@
 const certificationsInfo = [
   {
+    name:'MySQL (Basics) - Hackerrank',
+    link:'https://www.hackerrank.com/certificates/4bd509c7ae74',
+    duration:'March 2022 - present'
+  },
+  {
+    name:'MySQL (Intermediate) - Hackerrank',
+    link:'https://www.hackerrank.com/certificates/76ab7cba535c',
+    duration:'March 2022 - present'
+  },
+  {
     name:'Web Development',
     link:'https://www.udemy.com/certificate/UC-330fadda-adf6-4107-8617-a072106adafd/',
     duration:'April 2021 - present'
