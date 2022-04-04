@@ -1,7 +1,7 @@
 
 const info = [
     {
-        name:'SRIB Institute India',
+        name:'Samsung India',
         desc:'As an intern in prism program I was responsible for providing solution to analyse root cause in a system',
         points:[
             'Automate log analysis of a system',

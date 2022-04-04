@@ -7,3 +7,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+    .footer-text {
+        @apply flex items-center justify-center pt-6 text-center font-head font-semibold tracking-wide text-gray-400 transition-colors duration-200 hover:text-gray-600
+    }
+}

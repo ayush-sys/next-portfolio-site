@@ -1,12 +1,12 @@
 const certificationsInfo = [
   {
-    name:'MySQL (Basics) - Hackerrank',
-    link:'https://www.hackerrank.com/certificates/4bd509c7ae74',
+    name:'MySQL - Hackerrank',
+    link:'https://www.hackerrank.com/certificates/76ab7cba535c',
     duration:'March 2022 - present'
   },
   {
-    name:'MySQL (Intermediate) - Hackerrank',
-    link:'https://www.hackerrank.com/certificates/76ab7cba535c',
+    name:'MySQL (Basics) - Hackerrank',
+    link:'https://www.hackerrank.com/certificates/4bd509c7ae74',
     duration:'March 2022 - present'
   },
   {
