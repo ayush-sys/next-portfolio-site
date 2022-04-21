@@ -76,19 +76,19 @@ export default function Header() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-            <a href="#education" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="#education" className="header-nav-items">
               Education
             </a>
-            <a href="#skills" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="#skills" className="header-nav-items">
               Skills
             </a>
-            <a href="#projects" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="#projects" className="header-nav-items">
               Projects
             </a>
-            <a href="#expereince" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="#expereince" className="header-nav-items">
               Expereince
             </a>
-            <a href="#certifications" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="#certifications" className="header-nav-items">
               Certifications
             </a>
           </Popover.Group>
