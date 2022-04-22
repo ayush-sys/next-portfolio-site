@@ -1,7 +1,11 @@
 import React from 'react'
 import Head from 'next/head';
-import { Footer } from "../../components"
 import Header from "../../components/Blogs/Header";
+import Footer from "../../components/Blogs/Footer";
+import Articles from '../../components/Blogs/Articles';
+
+
+// data will be fetched here from firebase firestore
 
 
 export default function index() {
@@ -16,10 +20,15 @@ export default function index() {
     <Header/>
 
     {/* Main Section */}
-      <main >
-       <div>
-           <h1>To be developed !!!!!</h1>
-       </div>
+      <main>
+      <div className="py-6 bg-white" id="articles-section">
+        <Articles/>
+        <Articles/>
+        <Articles/>
+        <Articles/>
+        <Articles/>
+        <Articles/>
+      </div>
       </main>
 
     {/* Footer Section */}

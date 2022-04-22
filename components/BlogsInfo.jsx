@@ -4,7 +4,7 @@ import { FiTerminal } from 'react-icons/fi'
 
 export default function BlogsInfo() {
   return (
-      <div className="z-20 mx-auto w-full py-12 px-4 text-center sm:px-6 lg:py-16 lg:px-8 bg-white" id="blogs">
+      <div className="z-20 mx-auto w-full py-12 px-4 text-center sm:px-6 lg:px-8 bg-white" id="blogs">
         <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
           <span className="block">Want to checkout some blogs ?</span>
           <span className="block text-blue-500">It's today or never.</span>

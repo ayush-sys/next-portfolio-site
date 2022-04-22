@@ -9,7 +9,7 @@ export default function Header() {
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <div className='flex flex-row justify-center text-center items-center'>
-            <a href="/" className='bg-blue-600 mx-2 px-4 py-2 rounded-lg text-gray-100'>
+            <a href="/" className='bg-blue-600 mx-2 px-4 py-2 rounded-2xl text-gray-100'>
               <span className="sr-only">Workflow</span>
               <FaRss className='h-6 sm:h-8 w-auto'/>
             </a>
