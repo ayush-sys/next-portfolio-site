@@ -29,7 +29,7 @@ export default function About() {
         </p>
       </div>
       <div>
-        <Link href='https://drive.google.com/file/d/1HbsbjLnTPLZmtz4hvAjuaSTnQ2I2IAhZ/view?usp=sharing'>
+        <Link href='https://drive.google.com/file/d/10Wh6WC07yX1b18TuXo2aD4w6XOgGT9n8/view?usp=sharing'>
         <a>
         <button className='inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 hover:bg-blue-700 tracking-wider'>
           <FaGoogleDrive className='mx-2'/>

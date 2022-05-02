@@ -1,12 +1,12 @@
 const certificationsInfo = [
   {
-    name:'MySQL - Hackerrank',
-    link:'https://www.hackerrank.com/certificates/76ab7cba535c',
-    duration:'March 2022 - present'
+    name:'Postman Student Expert',
+    link:'https://api.badgr.io/public/assertions/ICXZP7mUQLqTmfZnwoBgtQ?identity__email=ayushmp7%40gmail.com',
+    duration:'April 2022 - present'
   },
   {
-    name:'MySQL (Basics) - Hackerrank',
-    link:'https://www.hackerrank.com/certificates/4bd509c7ae74',
+    name:'MySQL - Hackerrank',
+    link:'https://www.hackerrank.com/certificates/76ab7cba535c',
     duration:'March 2022 - present'
   },
   {
