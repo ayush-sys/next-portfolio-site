@@ -65,7 +65,7 @@ const callouts = [
                 {callouts.map((callout) => (
                     <div key={callout.name} className="group relative shadow-md hover:shadow-lg">
                         <div className="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1">
-                            <a href={callout.href} className="w-full block h-full">
+                            <a href={callout.href} className="w-full block h-full" key={callout.name}>
                                 <img alt={callout.imageAlt} src={callout.imageSrc} className="max-h-40 w-full object-cover"/>
                                 <div className="bg-white dark:bg-gray-800 w-full p-4">
                                     <p className="text-xl font-medium mb-2 text-blue-700">

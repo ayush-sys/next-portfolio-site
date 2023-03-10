@@ -10,7 +10,7 @@ export default function About() {
       className="my-4 items-center space-y-4 py-4 text-center font-head"
       id="about"
     >
-      <div class="my-4 flex flex-col items-center justify-center py-2">
+      <div className="my-4 flex flex-col items-center justify-center py-2">
         <Image src={profilePic} height={360} width={360} />
       </div>
       <p className="text-6xl text-gray-500">
