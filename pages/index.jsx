@@ -19,7 +19,7 @@ export default function Home() {
       {/* Main Section */}
       <main >
         <About />
-        <Education />
+        {/* <Education /> */}
         <Skills />
         <Tools />
         <Projects />

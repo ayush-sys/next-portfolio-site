@@ -1,58 +1,69 @@
-import { FaNodeJs, FaTools, FaBrain, FaCloud} from "react-icons/fa";
+import { FaTools, FaBrain, FaCloud, FaReact } from "react-icons/fa";
 
-const features = [
+const skills = [
   {
-    name: 'MERN Application Developer',
+    name: 'Full Stack Developer',
     description:
-      'I have learnt & develop many applications on MERN with great UI design. Apart from good design, I also code it efficiently.',
-    icon: FaNodeJs,
+      'I have learnt & develop many web applications using React Js, Node Js, MySQL, Firebase with great responsive UI design.',
+    icon: FaReact,
   },
   {
-    name: 'Machine Learning',
+    name: 'Data Science',
     description:
-      'I also have a deep understanding of ML & want to develop more applications using it, so that I can solve real world problems.',
+      "Recently, I've started to learn Python and Data Science to solve real world business problems using AI and analytics.",
     icon: FaBrain,
   },
   {
     name: 'Cloud Hosting',
     description:
-      'Apart from developing MERN & ML applications, I also deployed it on platforms like Heroku & Netlify.',
+      "Apart from designing & developing web applications I've also deployed it on platforms like Heroku & Firebase.",
     icon: FaCloud,
   },
   {
     name: 'Tools',
     description:
-      'I have also gain expereince in using tools like Git & Github, VS Code, linux terminal so that I can write & maintain code efficiently.',
+      "I've also gain expereince in using tools like Git & Github, VS Code, Eclipse, Postman.",
     icon: FaTools,
   },
 ]
 
-export default function Skills() {
+const Skills = () => {
   return (
-    <div className="py-12 bg-white" id="skills">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="md:text-center font-head">
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-wide text-gray-900 sm:text-4xl">
-            Skills
-          </p>
+    <section class="bg-white">
+      <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl tracking-wide">My technical <br /> Skills </h1>
+
+        <div class="mt-2">
+          <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+          <span class="inline-block w-2 h-1 ml-1 bg-blue-500 rounded-full"></span>
+          <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
         </div>
 
-        <div className="mt-10 font-body">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative">
-                <dt>
-                  <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                    <feature.icon className="h-6 w-6" aria-hidden="true" />
-                  </div>
-                  <p className="ml-16 text-lg leading-6 font-medium text-gray-700 hover:text-blue-500">{feature.name}</p>
-                </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-600">{feature.description}</dd>
-              </div>
+        <div class="mt-8 xl:mt-6 lg:flex lg:items-center">
+          <div class="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
+
+            {skills.map((skill) => (
+              <div class="space-y-3">
+              <span class="inline-block p-3 text-blue-600 bg-blue-200 rounded-xl">
+                <skill.icon aria-hidden='true'/>
+              </span>
+
+              <h1 class="text-xl font-semibold text-gray-700 capitalize">{skill.name}</h1>
+
+              <p class="text-gray-500 dark:text-gray-500">
+                {skill.description}
+              </p>
+            </div>
             ))}
-          </dl>
+          </div>
+
+          <div class="hidden lg:flex lg:w-1/2 lg:justify-center">
+            <img class="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80" alt="tools-pic" />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
+
+export default Skills;
