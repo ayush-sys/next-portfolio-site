@@ -4,10 +4,10 @@ import { FaGithub, FaGoogleDrive } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className="container lg:flex px-6 py-10 mx-auto">
+    <div className="container lg:flex px-6 py-10 mx-auto font-body">
       <div className="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
         <div className="max-w-xl">
-          <h2 className="text-3xl font-semibold text-gray-700 lg:text-5xl">Hi, I'm <span className="text-blue-600">Ayush &#128075; </span></h2>
+          <h2 className="text-3xl font-semibold text-gray-700 lg:text-5xl font-head">Hi, I'm <span className="text-blue-600">Ayush &#128075; </span></h2>
 
           <p className="mt-4 text-sm text-gray-600 lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates.</p>
 
