@@ -28,7 +28,7 @@ const informations = [
 
 const Projects = () => {
     return (
-        <div className="bg-white font-body">
+        <div className="bg-white font-body" id="projects">
             <div className="container px-6 py-10 md:py-14 mx-auto">
                 <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl tracking-wide font-head">My <br /> Projects </h1>
 
