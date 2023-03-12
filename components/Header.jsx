@@ -11,7 +11,7 @@ const Header = () => {
       <div className="px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           <a href="/">
-            <FaTerminal className='w-auto h-8 sm:h-10' />
+            <FaTerminal className='w-auto h-8 sm:h-10 text-gray-800' />
           </a>
 
           {/* <!-- Mobile menu button --> */}
@@ -25,9 +25,9 @@ const Header = () => {
         {/* <!-- Mobile Menu open: "block", Menu closed: "hidden" --> */}
         <div className={` ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'} header-nav-btn md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center`}>
           <div className="flex flex-col md:flex-row md:mx-6">
-            <a className="nav-opt" href="#about">About</a>
-            <a className="nav-opt" href="#projects">Projects</a>
-            <a className="nav-opt" href="#contact">Contact</a>
+            <a className={` ${isOpen ? 'text-gray-700 hover:text-blue-500' : 'text-gray-100 hover:text-white'} nav-opt`} href="#about">About</a>
+            <a className={` ${isOpen ? 'text-gray-700 hover:text-blue-500' : 'text-gray-100 hover:text-white'} nav-opt`} href="#projects">Projects</a>
+            <a className={` ${isOpen ? 'text-gray-700 hover:text-blue-500' : 'text-gray-100 hover:text-white'} nav-opt`} href="#contact">Contact</a>
           </div>
         </div>
       </div>

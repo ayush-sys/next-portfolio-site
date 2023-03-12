@@ -17,7 +17,7 @@
     }
 
     .nav-opt{
-        @apply my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0
+        @apply my-2 transition-colors duration-300 transform md:mx-4 md:my-0
     }
 
     /* about section */

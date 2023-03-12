@@ -34,7 +34,7 @@ const toolImages = [
 export default function Tools() {
   return (
 
-    <div className="bg-white font-body" id="tools">
+    <div className="font-body" id="tools">
       <div className="container px-6 py-10 md:py-14 mx-auto">
         <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl tracking-wide font-head">Tools & <br /> Services </h1>
 

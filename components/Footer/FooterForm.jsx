@@ -28,7 +28,7 @@ const FooterForm = () => {
     }
 
     return (
-        <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-gray-50 rounded-lg shadow-2xl lg:max-w-xl shadow-gray-200">
+        <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-gray-100 rounded-lg shadow-xl lg:max-w-xl">
             <h1 className="text-lg font-medium text-gray-700">Drop me a message here !</h1>
 
             <form className="mt-6" onSubmit={handleSubmit} autoComplete="true">
