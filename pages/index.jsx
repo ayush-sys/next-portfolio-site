@@ -4,7 +4,7 @@ import { About, Header, Footer, Experience, Skills, Tools, Projects, Certificati
 
 export default function Home() {
   return (
-    <div className='max-w-7xl mx-auto px-4 sm:px-6'>
+    <div className='max-w-7xl mx-auto px-4 sm:px-6 '>
       <Head>
         <title>Portfolio</title>
         <link rel="icon" href="/developer.png" />
@@ -17,7 +17,7 @@ export default function Home() {
       <Header />
 
       {/* Main Section */}
-      <main >
+      <main>
         <About />
         <Skills />
         <Tools />

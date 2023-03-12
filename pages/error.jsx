@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 
 export default function Home() {
     return (
-        <div className='max-w-7xl mx-auto px-4 sm:px-6'>
+        <div>
             <Head>
                 <title>404 Error</title>
                 <link rel="icon" href="/developer.png" />
@@ -14,7 +14,7 @@ export default function Home() {
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js" integrity="sha512-nIwdJlD5/vHj23CbO2iHCXtsqzdTTx3e3uAmpTm4x2Y8xCIFyWu4cSIV8GaGe2UNVq86/1h9EgUZy7tn243qdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             </Head>
 
-            <main className='bg-white font-body'>
+            <main className='font-body max-w-7xl mx-auto px-4 sm:px-6' >
                 <div className="container min-h-screen px-6 py-12 mx-auto md:flex md:items-center md:gap-12">
                     <div className="wf-ull md:w-1/2">
                         <p className="text-md font-bold tracking-wide text-blue-600 font-head">404 error</p>
@@ -35,7 +35,7 @@ export default function Home() {
                     </div>
 
                     <div className="relative w-full mt-8 md:block md:w-1/2 md:mt-0">
-                        <img className=" w-full lg:h-[32rem] h-80 md:h-96 rounded-lg object-cover" src="https://source.unsplash.com/random/?abstract" alt="random-pics"/>
+                        <img className=" w-full lg:h-[32rem] h-80 md:h-96 rounded-lg object-cover" src="https://source.unsplash.com/random/?abstract&architecture&nature&mountains&cars&ocean" alt="random-pics"/>
                         <div className='mx-1 px-2 mt-2 md:mt-4 flex flex-row items-start justify-start md:justify-end text-base font-light text-gray-400 tracking-wide'>Source :&nbsp;
                         <a className="hover:text-gray-500" href="https://unsplash.com/">Unsplash</a>
                         </div>

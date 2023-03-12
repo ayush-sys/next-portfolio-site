@@ -8,9 +8,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* 
 @layer components{
     .footer-text {
         @apply flex items-center justify-center pt-2 md:pt-4 text-center font-head font-semibold tracking-wide text-gray-500 transition-colors duration-200
     }
-}
+} */
