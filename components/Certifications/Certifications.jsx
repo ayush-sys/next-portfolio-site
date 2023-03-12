@@ -38,7 +38,7 @@ const certificationsInfo = [
 const Certifications = () => {
   return (
 
-    <div className="bg-white font-body" id="skills">
+    <div className="bg-white font-body" id="certifications">
       <div className="container px-6 py-8 md:py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl tracking-wide font-head">My technical <br /> Certifications </h1>
 

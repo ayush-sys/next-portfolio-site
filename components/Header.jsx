@@ -23,12 +23,11 @@ const Header = () => {
         </div>
 
         {/* <!-- Mobile Menu open: "block", Menu closed: "hidden" --> */}
-        <div className={` ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'} absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-gray-100 md:mt-0 md:p-0 md:top-0 
-         md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center rounded-lg`}>
+        <div className={` ${isOpen ? 'translate-x-0 opacity-100' : 'opacity-0 -translate-x-full'} header-nav-btn md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:flex md:items-center`}>
           <div className="flex flex-col md:flex-row md:mx-6">
-            <a className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0" href="#about">About</a>
-            <a className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0" href="#projects">Projects</a>
-            <a className="my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0" href="#contact">Contact</a>
+            <a className="nav-opt" href="#about">About</a>
+            <a className="nav-opt" href="#projects">Projects</a>
+            <a className="nav-opt" href="#contact">Contact</a>
           </div>
         </div>
       </div>

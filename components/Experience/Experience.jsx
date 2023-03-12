@@ -30,7 +30,7 @@ const info = [
 
 const Experience = () => {
     return (
-        <div className="bg-white font-body container" id="#expereince">
+        <div className="bg-white font-body container" id="expereince">
             <div className="px-6 py-10 md:py-14 mx-auto font-head">
                 <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl tracking-wide font-head">My <br /> Experience </h1>
                 <div className="mt-2">
@@ -40,7 +40,7 @@ const Experience = () => {
                 </div>
             </div>
 
-            <div className="xl:mt-6 lg:flex lg:items-center">
+            <div className="mb-10 xl:mt-6 lg:flex lg:items-center">
                 <div className="w-full md:flex md:flex-row justify-between items-center">
                     <ExpereinceCard/>
                     <ExpereinceCard/>

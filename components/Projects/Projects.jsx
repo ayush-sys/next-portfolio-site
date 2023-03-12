@@ -1,4 +1,5 @@
-import { FaGlobe, FaGithub } from "react-icons/fa";
+import ProjectCard from './ProjectCard';
+
 const informations = [
     {
         name: 'Spotify Clone',
@@ -42,26 +43,14 @@ const Projects = () => {
                     <div className="grid w-full grid-cols-1 gap-8 md:gap-10 lg:gap-12 md:grid-cols-2 lg:grid-cols-3">
 
                         {informations.map((information) => (
-                            <div className="max-w-xs overflow-hidden bg-gray-50 hover:bg-gray-100 rounded-lg shadow-md transition ease-in hover:shadow-lg px-2 py-2 my-2">
-                                <div className="px-4 py-2">
-                                    <h1 className="text-xl font-bold text-gray-700 uppercase">{information.name}</h1>
-                                    <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">{information.description}</p>
-                                </div>
-
-                                <img className="object-cover w-full h-48 mt-2" src={information.imageSrc} alt={information.imageAlt} />
-
-                                <div className="flex items-center justify-between px-4 py-2 my-1">
-                                    <a className="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-gray-700 rounded hover:bg-gray-800 focus:bg-gray-700 focus:outline-none flex flex-row items-center" href={information.href}>
-                                        <FaGithub className="w-auto h-4 lg:h-6 mx-2" />
-                                        Repo
-                                    </a>
-
-                                    <a className="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-blue-500 rounded hover:bg-blue-600 focus:bg-blue-600 focus:outline-none flex flex-row items-center" href={information.live}>
-                                        <FaGlobe className="w-auto h-4 lg:h-6 mx-2" />
-                                        Live
-                                    </a>
-                                </div>
-                            </div>
+                            <ProjectCard 
+                                name={information.name} 
+                                description={information.description}
+                                href={information.href} 
+                                imageAlt={information.imageAlt} 
+                                imageSrc={information.imageSrc} 
+                                live={information.live} 
+                            />
                         ))}
                     </div>
                 </div>

@@ -8,9 +8,34 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 
+ 
 @layer components{
-    .footer-text {
-        @apply flex items-center justify-center pt-2 md:pt-4 text-center font-head font-semibold tracking-wide text-gray-500 transition-colors duration-200
+
+    /* header section */
+    .header-nav-btn{
+        @apply absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-gray-100 rounded-lg
     }
-} */
+
+    .nav-opt{
+        @apply my-2 text-gray-700 transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0
+    }
+
+    /* about section */
+    .about-link-btn{
+        @apply px-5 py-2 text-sm font-medium tracking-wider text-center transition-colors duration-300 transform rounded-md flex flex-row justify-center items-center
+    }
+
+    /* project section */
+    .link-btn{
+        @apply px-2 py-1 text-xs font-semibold uppercase transition-colors duration-300 transform rounded focus:outline-none flex flex-row items-center
+    }
+
+    /* footer section */
+    .form-input{
+        @apply block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40
+    }
+
+    .form-submit-btn{
+        @apply w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50
+    }
+}
