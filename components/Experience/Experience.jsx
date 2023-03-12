@@ -1,4 +1,4 @@
-import ExpereinceCard from "./ExpereinceCard";
+import ExpereinceCard from "./ExperienceCard";
 
 const info = [
     {
@@ -28,11 +28,11 @@ const info = [
 ]
 
 
-const Expereince = () => {
+const Experience = () => {
     return (
         <div className="bg-white font-body container" id="#expereince">
             <div className="px-6 py-10 md:py-14 mx-auto font-head">
-                <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl tracking-wide font-head">My <br /> Expereince </h1>
+                <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl tracking-wide font-head">My <br /> Experience </h1>
                 <div className="mt-2">
                     <span className="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
                     <span className="inline-block w-2 h-1 ml-1 bg-blue-500 rounded-full"></span>
@@ -50,4 +50,4 @@ const Expereince = () => {
     )
 }
 
-export default Expereince;
+export default Experience;

@@ -2,7 +2,7 @@ import React from "react";
 import { GoOrganization } from "react-icons/go";
 
 
-const ExpereinceCard = () => {
+const ExperienceCard = () => {
     return (
         <div class="w-full max-w-sm overflow-hidden bg-gray-50 rounded-lg shadow-md hover:bg-gray-100 hover:shadow-lg mx-2 transition ease-in mt-8 md:mt-0">
             <img class="object-cover object-center w-full h-56" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
@@ -30,4 +30,4 @@ const ExpereinceCard = () => {
     )
 }
 
-export default ExpereinceCard;
+export default ExperienceCard;

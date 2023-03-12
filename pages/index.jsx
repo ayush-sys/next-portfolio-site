@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { About, Header, Footer, Expereince, Skills, Tools, Projects, Certifications } from "../components";
+import { About, Header, Footer, Experience, Skills, Tools, Projects, Certifications } from "../components";
 
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
         <Skills />
         <Tools />
         <Projects />
-        <Expereince />
+        <Experience />
         <Certifications />
       </main>
 
