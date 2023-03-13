@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 
-
 const FooterForm = () => {
     const formRef = useRef();
     const [form, setForm] = useState({
@@ -28,22 +27,22 @@ const FooterForm = () => {
     }
 
     return (
-        <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-gray-100 rounded-lg shadow-xl lg:max-w-xl">
-            <h1 className="text-lg font-medium text-gray-700">Drop me a message here !</h1>
+        <div className="w-full px-8 py-10 mx-auto overflow-hidden rounded-lg shadow-xl lg:max-w-xl backdrop-blur-md opacity-80 bg-gray-100">
+            <h1 className="text-lg font-bold tracking-wide text-blue-700">Drop me a message here !</h1>
 
             <form className="mt-6" onSubmit={handleSubmit} autoComplete="true">
                 <div className="flex-1 form-control">
-                    <label className="block mb-2 text-sm text-gray-600">Full Name</label>
+                    <label className="form-label">Full Name</label>
                     <input name="name" type="text" placeholder="Tony Stark" value={form.name} onChange={handleChange} className="form-input" />
                 </div>
 
                 <div className="flex-1 mt-6 form-control">
-                    <label className="block mb-2 text-sm text-gray-600">Email address</label>
+                    <label className="form-label">Email address</label>
                     <input name="email" type="email" placeholder="ironman@avengers.com" value={form.email} onChange={handleChange} className="form-input" />
                 </div>
 
                 <div className="w-full mt-6 form-control">
-                    <label className="block mb-2 text-sm text-gray-600">Message</label>
+                    <label className="form-label">Message</label>
                     <textarea name="message" value={form.message} placeholder="Message" onChange={handleChange} className="form-input h-32 md:h-48"></textarea>
                 </div>
 

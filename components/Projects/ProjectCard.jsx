@@ -3,7 +3,7 @@ import { FaGlobe, FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ name, description, imageSrc, imageAlt, href, live}) => {
     return (
-        <div className="max-w-xs overflow-hidden bg-gray-100 hover:bg-blue-50 rounded-lg shadow-lg transition ease-in hover:shadow-xl px-2 py-2 my-2">
+        <div className="max-w-xs overflow-hidden backdrop-blur-md opacity-85 bg-gray-100 hover:bg-white rounded-lg shadow-lg transition ease-in hover:shadow-xl px-2 py-2 my-2">
             <div className="px-4 py-2">
                 <h1 className="text-xl font-bold text-gray-800 uppercase">{name}</h1>
                 <p className="mt-1 text-sm text-gray-700">{description}</p>

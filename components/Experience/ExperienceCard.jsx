@@ -4,16 +4,16 @@ import { GoOrganization } from "react-icons/go";
 
 const ExperienceCard = () => {
     return (
-        <div className="w-full max-w-sm overflow-hidden bg-gray-100 rounded-lg shadow-lg hover:bg-blue-50 hover:shadow-xl mx-2 transition ease-in mt-8 md:mt-0 group">
-            <img className="object-cover object-center w-full h-56 group-hover:opacity-85 transition ease-in" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
+        <div className="w-full max-w-sm overflow-hidden backdrop-blur-md opacity-85 bg-gray-100 rounded-lg shadow-lg hover:bg-white hover:shadow-xl mx-2 transition ease-in mt-8 md:mt-0">
+            <img className="object-cover object-center w-full h-56 transition ease-in" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
 
             <div className="flex items-center px-4 py-3 bg-gray-800">
                 <GoOrganization className="mx-2 h-6 md:h-8 w-auto text-gray-200" />
-                <h1 class="mx-3 text-lg font-semibold text-gray-200">Company Name</h1>
+                <h1 className="mx-3 text-lg font-semibold text-gray-200">Company Name</h1>
             </div>
 
-            <div class="px-6 py-4">
-                <p class="py-2 text-gray-800 font-semibold">Full Stack maker & UI / UX Designer , love hip hop music Author of Building UI.
+            <div className="px-6 py-4">
+                <p className="py-2 text-gray-800 font-semibold">Full Stack maker & UI / UX Designer , love hip hop music Author of Building UI.
                 <span className="text-gray-600 text-md">&nbsp;Year served</span>
                 </p>
 

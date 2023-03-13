@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import { About, Header, Footer, Experience, Skills, Tools, Projects, Certifications } from "../components";
 
-
 export default function Home() {
   return (
     <div className='bg-gradient-to-r from-cyan-400 to-blue-400'>

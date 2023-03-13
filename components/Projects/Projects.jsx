@@ -7,7 +7,7 @@ const informations = [
         imageSrc: 'https://images.unsplash.com/photo-1581315628079-f093bb040803?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
         imageAlt: '01-NextJS-spotify-clone',
         href: 'https://github.com/ayush-sys/next-spotify-clone',
-        live: '/error'
+        live: 'https://next-spotify-clone-eta.vercel.app/'
     },
     {
         name: 'Invoice Management App',
