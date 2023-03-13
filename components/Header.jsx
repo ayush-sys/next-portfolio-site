@@ -7,7 +7,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="relative shadow-sm font-head shadow-slate-50">
+    <nav className="relative shadow-sm font-head shadow-slate-50 px-6 sm:px-10">
       <div className="px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           <a href="/">

@@ -1,31 +1,6 @@
-import { FaTools, FaBrain, FaCloud, FaReact } from "react-icons/fa";
+import React from 'react';
+import { skills } from '../constants/index';
 
-const skills = [
-  {
-    name: 'Full Stack Developer',
-    description:
-      'I have learnt & develop many web applications using React Js, Node Js, MySQL, Firebase with great responsive UI design.',
-    icon: FaReact,
-  },
-  {
-    name: 'Data Science',
-    description:
-      "Recently, I've started to learn Python and Data Science to solve real world business problems using AI and analytics.",
-    icon: FaBrain,
-  },
-  {
-    name: 'Cloud Hosting',
-    description:
-      "Apart from designing & developing web applications I've also deployed it on platforms like Heroku & Firebase.",
-    icon: FaCloud,
-  },
-  {
-    name: 'Tools',
-    description:
-      "I've also gain expereince in using tools like Git & Github, VS Code, Eclipse, Postman.",
-    icon: FaTools,
-  },
-]
 
 const Skills = () => {
   return (

@@ -1,34 +1,6 @@
+import React from "react";
 import ToolImage from "./ToolImage";
-import bootstrap from "../../public/images/logos/bootstrap.svg";
-import css3 from "../../public/images/logos/css3.svg";
-import firebase from "../../public/images/logos/firebase.svg";
-import git from "../../public/images/logos/git.svg";
-import github from "../../public/images/logos/github.svg";
-import heroku from "../../public/images/logos/Heroku.svg";
-import html from "../../public/images/logos/html5.svg";
-import java from "../../public/images/logos/java.svg"
-import js from "../../public/images/logos/JS.svg";
-import materialui from "../../public/images/logos/materialui.svg";
-import mysql from "../../public/images/logos/mysql.svg";
-import nextjs from "../../public/images/logos/next-js.svg";
-import nodejs from "../../public/images/logos/nodejs.svg";
-import pandas from "../../public/images/logos/pandas.svg";
-import python from "../../public/images/logos/python.svg"
-import react from "../../public/images/logos/react.svg";
-import seaborn from "../../public/images/logos/seaborn.svg";
-import sklearn from "../../public/images/logos/sklearn.svg";
-import tailwindcss from "../../public/images/logos/tailwindcss.svg";
-import vercel from "../../public/images/logos/vercel.svg";
-import digitalocean from "../../public/images/logos/digitalocean.svg";
-import flask from "../../public/images/logos/flask.svg";
-import postman from "../../public/images/logos/postman.svg";
-import powerbi from "../../public/images/logos/powerbi.svg";
-
-
-const toolImages = [
-  html, css3, js, java, nodejs, react, nextjs, materialui, bootstrap, tailwindcss, mysql,
-  python, flask, pandas, seaborn, sklearn, powerbi, git, github, postman, firebase, heroku, vercel, digitalocean
-]
+import { tools } from '../../constants/index';
 
 
 export default function Tools() {
@@ -46,7 +18,7 @@ export default function Tools() {
 
         <div className="mt-8 xl:mt-6 lg:flex lg:items-center">
           <div className="grid w-full grid-cols-2 md:grid-cols-4 lg:grid-cols-6 space-x-4 gap-x-6 gap-y-10">
-            {toolImages.map(toolImage => (
+            {tools.map(toolImage => (
               <ToolImage location={toolImage}/>
             ))}
           </div>
