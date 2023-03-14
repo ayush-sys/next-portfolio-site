@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics, isSupported } from "firebase/analytics";
+import { getAnalytics, isSupported, logEvent  } from "firebase/analytics";
+
 
 const clientCredentials = {
     apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -14,7 +15,6 @@ const clientCredentials = {
 
 
 // Initialize Firebase
-    const app = initializeApp(clientCredentials);
-    const analytics = isSupported().then(yes => yes ? getAnalytics(app) : null);
-
-export {app, analytics };
+const app = initializeApp(clientCredentials);
+const analytics = isSupported().then(yes => yes ? getAnalytics(app) : null);
+export {app, analytics};
