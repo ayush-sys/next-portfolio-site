@@ -18,6 +18,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         });
     `}
     </Script>
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return <>
     <Component {...pageProps} />
     <Analytics />
   </>
